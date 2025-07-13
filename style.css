@@ -1,0 +1,71 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    height: 90vh;
+    background-color: #f0f2f5;
+}
+.container{
+    background-color: rgb(36, 129, 215);
+    border: none;
+    border-radius: 1rem;
+    background-color: white;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.2);
+    transition: scale(1.1);
+}
+.toggle-button{
+    padding: 2rem 4rem 1rem 2rem;
+    /* gap: 5rem; */
+    
+}
+.toggle-button button{
+    text-align: center;
+    height: 30px;
+    width: 120px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ede7e7;
+    margin-left: 30px;
+    /* font-size: 20px; */
+    font-weight: bold;
+
+}
+.toggle-button button:hover{
+    background-color:#ddd;
+}
+
+.form,.form{
+    display: flex;
+    flex-direction: column;
+    padding: 0rem 4rem;
+    margin-bottom: 2rem;
+}
+input{
+    margin-bottom: 1rem;
+    /* padding: 0.5rem; */
+    padding: 10px;
+    
+    /* height: 3vh;
+    width: 35vw; */
+    border-radius: 0.6rem;
+    border: none;
+    background-size: cover;
+    /* position: absolute; */
+    border: 1px solid #ccc;
+}
+.submit{
+    height: 40px;
+    border: none;
+    background-color: rgb(105, 105, 228);
+    border-radius: 10px;
+    color: white;
+}
+.submit:hover{
+    background-color: blue;
+}
+.hidden{
+    display: none;
+}
