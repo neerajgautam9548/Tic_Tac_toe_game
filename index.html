@@ -1,37 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>form_filling</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sequential Box Animation</title>
+  <link rel="stylesheet" href="header.css" />
 </head>
 <body>
-    <h1>Sign up/Login Form</h1>
-    <div class="container">
-        <div class="toggle-button">
-            <button onclick="showForm('signup')">Sign Up</button>
-            <button onclick="showForm('login')">Login</button>
-        </div>
-
-        <!-- sign up form -->
-        <form id="signup-form" class="form hidden">
-            <h2>Sign Up</h2>
-            <input type="text" placeholder="Name" required>
-            <input type="email" placeholder="Email" required>
-            <input type="password" placeholder="Password" required>
-            <input type="password" placeholder="confirm passowrd" required>
-            <button type="submit" class="submit">Sign Up</button>
-        </form>
-
-        <!-- login form -->
-        <form id="login-form" class="form">
-            <h2>Login</h2>
-            <input type="email" placeholder="Email" required>
-            <input type="password" placeholder="Password" required>
-            <button type="submit" class="submit">Login</button>
-        </form>
+  <header id="hide1">
+    <h1>TIC TAC TOE</h1>
+  </header>
+  <main>
+  <div class="add">Thanks
+      <!-- <button class="new_game">New Game</button> -->
+  </div>
+  <div id="hide" class="winner1">
+    <h1>Game Over</h1>
+    <h1 class="game_winner"></h1>
+    <div class="btn">
+      <button class="new_game">New Game</button>
+      <button class="exit">Exit</button>
     </div>
-    <script src="script.js"></script>
+  </div>
+  <div id="hide1" class="container">
+    <div class="box-container">
+      <div class="box1">
+
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>  
+      </div>
+      <div class="box2">
+
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+      </div>
+      <div class="box3">
+        
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+      </div>
+    </div>
+    </div>
+  </main>
+  <script src="header.js"></script>
 </body>
 </html>
